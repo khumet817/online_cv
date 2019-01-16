@@ -1,0 +1,160 @@
+/* Styles for online cv */
+
+box {
+    box-sizing: border-box;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Start of style for HOME */
+.header {
+    margin: 0;
+}
+
+.head {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    text-align: center;
+    font-size: 70px;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.hsection {
+    background-color: rgb(0, 0, 0, 0.7);
+    font-family: 'Montserrat', sans-serif;
+    margin: 200px 400px 0 400px;
+}
+/* End Of Style for HOME */
+
+/* Start of parallax background images */
+.parallax {
+    background-image: url(../images/LinkedIn.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-left: 200px;
+    height: 500px;
+}
+
+.parallax-contact {
+    background-image: url(../images/apple-1867762_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: 200px;
+    height: 300px;
+}
+/* End of parallax background images */
+
+/* Start of side nav bar style */
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidenav a {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 16px;
+    text-decoration: none;
+    text-align: -webkit-center;
+    display: block;
+}
+
+.sidenav p {
+    margin: 0px;
+}
+
+.sidenav a:hover {
+    background-color: rgb(255, 215, 0);
+    color: rgb(0, 0, 0);
+}
+/* ICONS */
+
+.fa-home:before {
+    content: "\f015";
+}
+
+.fa-user:before {
+    content: "\f007";
+}
+
+.fa-book:before {
+    content: "\f02d";
+}
+
+.fa-phone:before {
+    content: "\f095";
+}
+/* End of side nav bar style */
+
+/* Start of style for content */
+
+.content {
+    margin-left: 200px;
+    padding: 24px;
+    background-color: rgb(0, 0, 0);
+    color: beige;
+    height: 1200px;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+}
+
+/* ICONS */
+
+.fa-html5:before {
+    content: "\f13b";
+    padding: 0 60%;
+    font-size: 5rem;
+}
+
+.fa-css3-alt:before {
+    content: "\f38b";
+    padding: 0 60%;
+    font-size: 5rem;
+}
+
+.fa-sass:before {
+    content: "\f41e";
+    padding: 0 60%;
+    font-size: 5rem;
+}
+
+.fa-java:before {
+    content: "\f4e4";
+    padding: 0 60%;
+    font-size: 5rem;
+}
+
+/* End of style for content */
