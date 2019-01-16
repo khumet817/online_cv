@@ -98,6 +98,15 @@ h3 {
 }
 /* ICONS */
 
+.fab {
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-variant: normal;
+}
+
 .fa-home:before {
     content: "\f015";
 }
@@ -129,32 +138,53 @@ ul {
     display: inline-flex;
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 /* ICONS */
 
 .fa-html5:before {
     content: "\f13b";
-    padding: 0 60%;
+    padding: 0 50%;
     font-size: 5rem;
 }
 
 .fa-css3-alt:before {
     content: "\f38b";
-    padding: 0 60%;
+    padding: 0 50%;
     font-size: 5rem;
 }
 
 .fa-sass:before {
     content: "\f41e";
-    padding: 0 60%;
+    padding: 0 40%;
     font-size: 5rem;
 }
 
 .fa-java:before {
     content: "\f4e4";
-    padding: 0 60%;
+    padding: 0 50%;
     font-size: 5rem;
+}
+
+.fa-html5:hover {
+    color: rgb(255, 140, 0);
+    transition: color 1s ease-in-out;
+}
+
+.fa-css3-alt:hover {
+    color: rgb(0, 0, 255);
+    transition: color 1s ease-in-out;
+}
+
+.fa-sass:hover {
+    color: rgb(199, 23, 199);
+    transition: color 1s ease-in-out;
+}
+
+.fa-java:hover {
+    color: yellow;
+    transition: color 1s ease-in-out
 }
 
 /* End of style for content */
