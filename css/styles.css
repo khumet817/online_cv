@@ -23,30 +23,30 @@ a {
 }
 
 .head {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 100px;
-    padding-bottom: 150px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 6.25rem;
+    padding-bottom: 9.375rem;
 }
 
 h1 {
     color: rgb(255, 255, 255);
     margin: 0;
     text-align: center;
-    font-size: 70px;
+    font-size: 4.375rem;
 }
 
 h3 {
     color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 0;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .hsection {
     background-color: rgb(0, 0, 0, 0.7);
     font-family: 'Montserrat', sans-serif;
-    margin: 200px 400px 0 400px;
+    margin: 12.5rem 25rem 0 25rem;
 }
 /* End Of Style for HOME */
 
@@ -57,8 +57,8 @@ h3 {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    margin-left: 200px;
-    height: 500px;
+    margin-left: 12.5rem;
+    height: 31.25rem;
 }
 
 .parallax-contact {
@@ -67,8 +67,8 @@ h3 {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    margin-left: 200px;
-    height: 225px;
+    margin-left: 12.5rem;
+    height: 14.06rem;
 }
 /* End of parallax background images */
 
@@ -76,9 +76,9 @@ h3 {
 
 .sidenav {
     height: 100%;
-    width: 200px;
+    width: 12.5rem;
     position: fixed;
-    top: 0px;
+    top: 0;
     background-color: rgb(0, 0, 0);
     font-family: 'Poppins', sans-serif;
 }
@@ -86,14 +86,14 @@ h3 {
 .sidenav a {
     color: rgb(255, 255, 255);
     margin: 0;
-    padding: 16px;
+    padding: 1rem;
     text-decoration: none;
     text-align: -webkit-center;
     display: block;
 }
 
 .sidenav p {
-    margin: 0px;
+    margin: 0;
 }
 
 .sidenav a:hover {
@@ -107,8 +107,8 @@ h3 {
 /* Start of style for content */
 
 .content {
-    margin-left: 200px;
-    padding: 24px;
+    margin-left: 12.5rem;
+    padding: 1.5rem;
     background-color: rgb(0, 0, 0);
     color: beige;
     height: 70%;
@@ -178,6 +178,21 @@ ul {
     transition: color 1s ease-in-out;
 }
 
+/* Education */
+h2 {
+    font-size: 2.8rem;
+}
+
+.tblhead {
+    font-size: 2rem;
+}
+
+/* Projects */
+img {
+    margin: 3rem;
+    padding: 0 6rem;
+}
+
 /* Contact Icons */
 .fa-envelope:before {
     padding: 0 50%;
@@ -245,3 +260,269 @@ ul {
 }
 
 /* End of style for footer */
+
+/* Responsive design for my online cv when using a laptop */
+@media only screen and (max-width: 1496px) {
+/* Styles for online cv */
+
+box {
+    box-sizing: border-box;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+/* Start of style for HOME */
+.header {
+    margin: 0;
+}
+
+.head {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 6.25rem;
+    padding-bottom: 9.375rem;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    text-align: center;
+    font-size: 4.375rem;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0;
+    font-size: 2.5rem;
+}
+
+.hsection {
+    background-color: rgb(0, 0, 0, 0.7);
+    font-family: 'Montserrat', sans-serif;
+    margin: 12.5rem 25rem 0 25rem;
+}
+/* End Of Style for HOME */
+
+/* Start of parallax background images */
+.parallax {
+    background-image: url(../images/LinkedIn.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-left: 12.5rem;
+    height: 31.25rem;
+}
+
+.parallax-contact {
+    background-image: url(../images/apple-1867762_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: 12.5rem;
+    height: 14.06rem;
+}
+/* End of parallax background images */
+
+/* Start of side nav bar style */
+
+.sidenav {
+    height: 100%;
+    width: 12.5rem;
+    position: fixed;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidenav a {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: -webkit-center;
+    display: block;
+}
+
+.sidenav p {
+    margin: 0;
+}
+
+.sidenav a:hover {
+    background-color: rgb(255, 215, 0);
+    color: rgb(0, 0, 0);
+}
+/* ICONS */
+
+/* End of side nav bar style */
+
+/* Start of style for content */
+
+.content {
+    margin-left: 12.5rem;
+    padding: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    color: beige;
+    height: 70%;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 0 10%;
+    text-align: center;
+}
+
+/* ICONS */
+
+/* Skills Icons */
+.fa-html5:before {
+    content: "\f13b";
+    padding: 0 50%;
+    font-size: 5rem;
+}
+
+.fa-css3-alt:before {
+    content: "\f38b";
+    padding: 0 50%;
+    font-size: 5rem;
+}
+
+.fa-sass:before {
+    content: "\f41e";
+    padding: 0 40%;
+    font-size: 5rem;
+}
+
+.fa-java:before {
+    content: "\f4e4";
+    padding: 0 50%;
+    font-size: 5rem;
+}
+
+.fa-php:before {
+    padding: 0 40%;
+    font-size: 5rem;
+}
+
+.fa-html5:hover {
+    color: rgb(255, 140, 0);
+    transition: color 1s ease-in-out;
+}
+
+.fa-css3-alt:hover {
+    color: rgb(0, 0, 255);
+    transition: color 1s ease-in-out;
+}
+
+.fa-sass:hover {
+    color: rgb(199, 23, 199);
+    transition: color 1s ease-in-out;
+}
+
+.fa-java:hover {
+    color: rgb(255, 255, 0);
+    transition: color 1s ease-in-out;
+}
+
+.fa-php:hover {
+    color: rgb(90, 46, 213);
+    transition: color 1s ease-in-out;
+}
+
+/* Education */
+h2 {
+    font-size: 2.8rem;
+}
+
+.tblhead {
+    font-size: 2rem;
+}
+
+/* Projects */
+img {
+    margin: 3rem;
+    padding: 0 6rem;
+}
+
+/* Contact Icons */
+.fa-envelope:before {
+    padding: 0 50%;
+    font-size: 5rem;
+}
+
+.fa-whatsapp:before {
+    padding: 0 50%;
+    font-size: 5rem;
+}
+
+.fa-instagram:before {
+    padding: 0 50%;
+    font-size: 5rem;
+}
+
+.fa-facebook:before {
+    padding: 0 50%;
+    font-size: 5rem;
+}
+
+.fa-github:before {
+    padding: 0 50%;
+    font-size: 5rem;
+}
+
+.fa-envelope:hover {
+    color: rgb(255, 0, 0);
+    transition: color 0.5s ease-in-out;
+}
+
+.fa-whatsapp:hover {
+    color: rgb(0, 128, 0);
+    transition: color 0.5s ease-in-out;
+}
+
+.fa-instagram:hover {
+    color: blueviolet;
+    transition: color 0.5s ease-in-out;
+}
+
+.fa-facebook:hover {
+    color: blue;
+    transition: color 0.5s ease-in-out;
+}
+
+.fa-github:hover {
+    color: rgb(238, 130, 238);
+    transition: color 0.5s ease-in-out;
+}
+
+/* End of style for content */
+
+/* Start of style for footer */
+
+.foot {
+    background-color: rgb(0, 0, 0);
+    height: 3rem;
+}
+
+/* ICON */
+.fa-arrow-circle-up:before {
+    font-size: 2rem;
+    float: center;
+}
+
+/* End of style for footer */
+
