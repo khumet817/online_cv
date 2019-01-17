@@ -143,6 +143,7 @@ ul {
 
 /* ICONS */
 
+/* Skills Icons */
 .fa-html5:before {
     content: "\f13b";
     padding: 0 50%;
@@ -195,6 +196,37 @@ ul {
 .fa-php:hover {
     color: rgb(90, 46, 213);
     transition: color 1s ease-in-out;
+}
+
+/* Contact Icons */
+.fa-envelope:before {
+    padding: 0 50%;
+    font-size: 5rem;
+}
+
+.fa-whatsapp:before {
+    padding: 0 50%;
+    font-size: 5rem;
+}
+
+.fa-github:before {
+    padding: 0 50%;
+    font-size: 5rem;
+}
+
+.fa-envelope:hover {
+    color: rgb(255, 0, 0);
+    transition: color 0.5s ease-in-out;
+}
+
+.fa-whatsapp:hover {
+    color: rgb(0, 128, 0);
+    transition: color 0.5s ease-in-out;
+}
+
+.fa-github:hover {
+    color: rgb(238, 130, 238);
+    transition: color 0.5s ease-in-out;
 }
 
 /* End of style for content */
