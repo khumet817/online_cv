@@ -13,6 +13,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    color: rgb(0, 0, 0);
+}
+
 /* Start of style for HOME */
 .header {
     margin: 0;
@@ -64,7 +68,7 @@ h3 {
     background-attachment: fixed;
     background-size: cover;
     margin-left: 200px;
-    height: 300px;
+    height: 225px;
 }
 /* End of parallax background images */
 
@@ -98,30 +102,6 @@ h3 {
 }
 /* ICONS */
 
-.fab {
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    text-rendering: auto;
-    line-height: 1;
-    font-variant: normal;
-}
-
-.fa-home:before {
-    content: "\f015";
-}
-
-.fa-user:before {
-    content: "\f007";
-}
-
-.fa-book:before {
-    content: "\f02d";
-}
-
-.fa-phone:before {
-    content: "\f095";
-}
 /* End of side nav bar style */
 
 /* Start of style for content */
@@ -209,6 +189,16 @@ ul {
     font-size: 5rem;
 }
 
+.fa-instagram:before {
+    padding: 0 50%;
+    font-size: 5rem;
+}
+
+.fa-facebook:before {
+    padding: 0 50%;
+    font-size: 5rem;
+}
+
 .fa-github:before {
     padding: 0 50%;
     font-size: 5rem;
@@ -224,9 +214,34 @@ ul {
     transition: color 0.5s ease-in-out;
 }
 
+.fa-instagram:hover {
+    color: blueviolet;
+    transition: color 0.5s ease-in-out;
+}
+
+.fa-facebook:hover {
+    color: blue;
+    transition: color 0.5s ease-in-out;
+}
+
 .fa-github:hover {
     color: rgb(238, 130, 238);
     transition: color 0.5s ease-in-out;
 }
 
 /* End of style for content */
+
+/* Start of style for footer */
+
+.foot {
+    background-color: rgb(0, 0, 0);
+    height: 3rem;
+}
+
+/* ICON */
+.fa-arrow-circle-up:before {
+    font-size: 2rem;
+    float: center;
+}
+
+/* End of style for footer */
