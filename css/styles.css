@@ -9,16 +9,19 @@ box {
 
 body {
     display: grid;
-    grid-template-areas: "nav main"
-                         "nav footer";
-    grid-template-rows: 80% 20%;
-    grid-template-columns: 15% 1fr;
+    grid-template-areas: "nav"
+                         "main";
+    grid-template-rows: 5% 95%;
     margin: 0;          
 }
 
-nav, main {
+nav {
+    background-color: rgba(0, 0, 0, 0.949);
+}
+
+main {
     padding: 20px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
 }
 
 .content {
@@ -27,37 +30,41 @@ nav, main {
 
 .mainNav {
     grid-area: nav;
-    padding-left: 1.25rem;
 }
 
-/* Start of syles for SIDENAV */
+/* Start of syles for NAV BAR */
 /* JUMPLINKS AND TEXT */
-.sidenav {
-    height: 100%;
+.navbar {
+    width: 100%;
     position: fixed;
     font-family: 'Poppins', sans-serif;
 }
 
-.sidenav a {
+.navbar a {
     color: rgb(255, 255, 255);
     margin: 0 1rem;
     padding: 1rem;
     text-decoration: none;
     text-align: -webkit-center;
     display: block;
-    width: 100%;
+    border-radius: 5%;
 }
 
-.sidenav p {
+.navbar p {
     margin: 0;
 }
 
-.sidenav a:hover {
+.navbar a:hover {
     background-color: rgb(255, 215, 0);
     color: rgb(0, 0, 0);
 }
 
-/* End of styles for SIDENAV */
+.navbar ul {
+    display: inline-flex;
+    float: right;
+}
+
+/* End of styles for NAV BAR */
 
 /* Start of styles for HOME */
 /* TEXT */
@@ -89,28 +96,38 @@ h4 {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding: 1.25rem 0;
-    height: 95vh;
+    padding: 2rem 0;
+    height: 100vh;
 }
 
 /* End of styles for HOME */
 
 /* Start of styles for MAIN */
 /* TEXT */
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    padding-left: 0;
+    font-size: 6rem;
+}
+
 .fontHeading {
     color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .fontParagraph {
     color: rgb(245, 245, 220);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.975rem;
+    font-size: larger;
 }
 
 h3 {
+    margin: 1rem 0;
     color: beige;
+    font-size: 1.9rem;
 }
 
 /* LISTS AND ICONS */
@@ -122,32 +139,33 @@ ul {
 }
 
 .fa-html5:before {
-    content: "\f13b";
-    padding: 0 50%;
-    font-size: 5rem;
+    padding: 0px 10%;
+    margin: 0 25%;
+    font-size: 6rem;
 }
 
 .fa-css3-alt:before {
-    content: "\f38b";
-    padding: 0 50%;
-    font-size: 5rem;
+    padding: 0px 10%;
+    margin: 0 25%;
+    font-size: 6rem;
 }
 
 .fa-sass:before {
-    content: "\f41e";
-    padding: 0 40%;
-    font-size: 5rem;
+    padding: 0px 10%;
+    margin: 0 25%;
+    font-size: 6rem;
 }
 
 .fa-java:before {
-    content: "\f4e4";
-    padding: 0 50%;
-    font-size: 5rem;
+    padding: 0px 10%;
+    margin: 0 25%;
+    font-size: 6rem;
 }
 
 .fa-php:before {
-    padding: 0 40%;
-    font-size: 5rem;
+    padding: 0px 10%;
+    margin: 0 25%;
+    font-size: 6rem;
 }
 
 .fa-html5:hover {
@@ -178,53 +196,52 @@ ul {
 /* IMAGES */
 /* End of styles for MAIN */
 
-/* Start of style for CONTACT */
-/* TEXT */
-h2 {
-    color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 1.3rem;
-    font-size: 2rem;
+/* Start of styles for CONTACT */
+a {
+    color: black;
 }
 
 /* PARALLAX BACKGROUND IMAGE */
 .parallax-contact {
     background-image: url(../images/abitofcolor.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     background-attachment: fixed;
-    padding: 1.25rem 0;
-    height: 25vh; 
+    height: 15rem;
 }
 
-/* ICONS */
-a {
-    color: rgb(0, 0, 0);
+/* TEXT */
+h5 {
+    margin-top: 0;
+    padding: 2.4rem;
+    padding-bottom: 0;
+    font-size: 1.8rem;
 }
+/* ICONS */
 .fa-envelope:before {
     padding: 0 50%;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .fa-linkedin:before {
     padding: 0 50%;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .fa-instagram:before {
     padding: 0 50%;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .fa-facebook:before {
     padding: 0 50%;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .fa-github:before {
     padding: 0 50%;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .fa-envelope:hover {
@@ -254,6 +271,160 @@ a {
 
 /* End of styles for CONTACT */
 
-@media (max-width:1678px) and (min-width:) {
+/* The following is the start of my onlie cv's responsive design. This will be the styling that will cater for laptops */
+@media (max-width:1440px) {
+    /* Styles for my online cv */
+    /* Start of syles for NAVBAR */
+    /* JUMPLINKS AND TEXT */
+    .navbar a {
+        color: rgb(255, 255, 255);
+        margin: 0 1rem;
+        padding: 1rem;
+        text-decoration: none;
+        text-align: -webkit-center;
+        display: block;
+        border-radius: 5%;
+    }
 
+    .navbar ul {
+        padding-right: 0;
+        display: inline-flex;
+        float: right;
+    }
+
+    /* End of styles for NAV BAR */
+
+    /* Start of styles for HOME */
+    /* TEXT */
+    h1 {
+        color: rgb(255, 255, 255);
+        margin: 0;
+        padding: 0 6rem;
+        text-align: center;
+        font-size: 2.6rem;
+    }
+
+    h4 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-top: 0;
+        font-size: 1.3rem;
+    }
+
+    /* BACKGROUND FOR TEXT */
+    .bgheading {
+        background-color: rgb(0, 0, 0, 0.7);
+        font-family: 'Montserrat', sans-serif;
+        margin: 10.5rem 20rem 0 20rem;
+    }
+
+    /* PARALLAX BACKGROUND IMAGE */
+    .parallax {
+        background-image: url(../images/LinkedIn.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        padding: 2rem 0;
+        height: 100vh;
+    }
+
+    /* End of styles for HOME */
+
+    /* Start of styles for MAIN */
+    /* TEXT */
+    h2 {
+        color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 0;
+        padding-left: 0;
+        font-size: 6rem;
+    }
+
+    .fontHeading {
+        color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 3rem;
+    }
+
+    .fontParagraph {
+        color: rgb(245, 245, 220);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+    }
+
+    h3 {
+        margin: 1rem 0;
+        color: beige;
+        font-size: 1.9rem;
+    }
+
+/* The following is the start of my onlie cv's responsive design. This will be the styling that will cater for tablets */
+@media (max-width:768) {
+    body {
+        display: grid;
+        grid-template-areas: "nav"
+                             "main";
+        grid-template-rows: 2.5% 97.5%;
+        margin: 0;          
+    }
+
+    /* Start of syles for NAVBAR */
+    /* JUMPLINKS AND TEXT */
+
+    .navbar a {
+        color: rgb(255, 255, 255);
+        margin: 0 0.2rem;
+        padding: 0.2rem;
+        text-decoration: none;
+        text-align: -webkit-center;
+        display: block;
+        border-radius: 5%;
+    }
+
+    .navbar ul {
+        display: inline-flex;
+        margin-right: 0;
+        float: right;
+    }
+    
+    /* End of styles for SIDENAV */
+    
+    /* Start of styles for HOME */
+    /* TEXT */
+    h1 {
+        color: rgb(255, 255, 255);
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 2.6rem;
+    }
+    
+    h4 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-top: 0;
+        font-size: 0.9rem;
+    }
+    
+    /* BACKGROUND FOR TEXT */
+    .bgheading {
+        background-color: rgb(0, 0, 0, 0.7);
+        font-family: 'Montserrat', sans-serif;
+        margin: 8.5rem 10rem 0 10rem;
+    }
+    
+    /* PARALLAX BACKGROUND IMAGE */
+    .parallax {
+        background-image: url(../images/LinkedIn.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        padding: 2rem 0;
+        height: 100vh;
+    }
+    
+    /* End of styles for HOME */
+    
 }
