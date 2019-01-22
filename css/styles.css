@@ -110,11 +110,19 @@ h4 {
 /* Start of styles for MAIN */
 /* TEXT */
 h2 {
-    color: rgb(255, 255, 255);
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 0;
+    color: rgb(255, 0, 0);
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    margin: 0;
     padding-left: 0;
-    font-size: 6rem;
+    font-size: 5em;
+}
+
+img {
+    margin: 2em;
+    padding: 0 4em;
+    float: right;
+    height: 14em;
+    width: 14em;
 }
 
 .fontHeading {
