@@ -1,71 +1,12 @@
-/* Styles for my online cv */
-* {
-    scroll-behavior: smooth;
-}
-
-box {
-    box-sizing: border-box;
-}
-
 body {
-    /* display: grid;
-    grid-template-areas: "nav"
-                         "main";
-    grid-template-rows: 5% 95%;
-    margin: 0;           */
     margin: 0;
-}
-
-nav {
-    background-color: rgba(0, 0, 0, 0.949);
 }
 
 main {
-    padding: 20px;
-    background-color: rgba(0, 0, 0);
-}
-
-.content {
-    grid-area: main;
-}
-
-/* .mainNav {
-    grid-area: nav;
-} */
-
-/* Start of syles for NAV BAR */
-/* JUMPLINKS AND TEXT */
-/* .navbar {
-    width: 100%;
-    position: fixed;
-    font-family: 'Poppins', sans-serif;
-} */
-
-/* .navbar a {
-    color: rgb(255, 255, 255);
-    margin: 0 1rem;
-    padding: 1rem;
-    text-decoration: none;
-    text-align: -webkit-center;
-    display: block;
-    border-radius: 5%;
-}
-
-.navbar p {
+    background-color: rgb(0, 0, 0);
     margin: 0;
+    padding: 1.5em;
 }
-
-.navbar a:hover {
-    background-color: rgb(255, 215, 0);
-    color: rgb(0, 0, 0);
-}
-
-.navbar ul {
-    display: inline-flex;
-    float: right;
-} */
-
-/* End of styles for NAV BAR */
 
 /* Start of styles for HOME */
 /* TEXT */
@@ -101,10 +42,11 @@ h4 {
     background-position: center;
     background-attachment: fixed;
     padding-top: 20em;
-    padding-right:18em;
-    padding-left: 18em;
+    padding-right:14em;
+    padding-left: 14em;
     height: 100vh;
 }
+
 /* End of styles for HOME */
 
 /* Start of styles for MAIN */
@@ -125,22 +67,21 @@ img {
     width: 14em;
 }
 
-.fontHeading {
-    color: rgb(255, 255, 255);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
-}
-
 .fontParagraph {
     color: rgb(245, 245, 220);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
+    font-family: 'Oxygen', sans-serif;
+    font-size: large;
 }
 
 h3 {
-    margin: 1rem 0;
-    color: beige;
-    font-size: 1.9rem;
+    background-color: rgb(139, 0, 0);
+    color: rgb(0, 0, 0);
+    border: solid rgb(245, 245, 220) 0.003em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    margin-right: 16.8em;
+    padding: 0.2em;
+    padding-left: 1em;
 }
 
 /* LISTS AND ICONS */
@@ -211,12 +152,12 @@ ul {
 
 /* Start of styles for CONTACT */
 a {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 /* PARALLAX BACKGROUND IMAGE */
-.parallax-contact {
-    background-image: url(../images/abitofcolor.jpg);
+.parallax-project {
+    background-image: url(../images/apple-1867762_960_720.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -283,161 +224,3 @@ h5 {
 }
 
 /* End of styles for CONTACT */
-
-/* The following is the start of my onlie cv's responsive design. This will be the styling that will cater for laptops */
-/* @media (max-width:1440px) { */
-    /* Styles for my online cv */
-    /* Start of syles for NAVBAR */
-    /* JUMPLINKS AND TEXT */
-    /* .navbar a {
-        color: rgb(255, 255, 255);
-        margin: 0 1rem;
-        padding: 1rem;
-        text-decoration: none;
-        text-align: -webkit-center;
-        display: block;
-        border-radius: 5%;
-    }
-
-    .navbar ul {
-        padding-right: 0;
-        display: inline-flex;
-        float: right;
-    } */
-
-    /* End of styles for NAV BAR */
-
-    /* Start of styles for HOME */
-    /* TEXT */
-    /* h1 {
-        color: rgb(255, 255, 255);
-        margin: 0;
-        padding: 0 6rem;
-        text-align: center;
-        font-size: 2.6rem;
-    }
-
-    h4 {
-        color: rgb(255, 255, 255);
-        text-align: center;
-        margin-top: 0;
-        font-size: 1.3rem;
-    } */
-
-    /* BACKGROUND FOR TEXT */
-    /* .bgheading {
-        background-color: rgb(0, 0, 0, 0.7);
-        font-family: 'Montserrat', sans-serif;
-        margin: 10.5rem 20rem 0 20rem;
-    } */
-
-    /* PARALLAX BACKGROUND IMAGE */
-    /* .parallax {
-        background-image: url(../images/LinkedIn.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        padding: 2rem 0;
-        height: 100vh;
-    } */
-
-    /* End of styles for HOME */
-
-    /* Start of styles for MAIN */
-    /* TEXT */
-    /* h2 {
-        color: rgb(255, 255, 255);
-        font-family: 'Times New Roman', Times, serif;
-        margin-bottom: 0;
-        padding-left: 0;
-        font-size: 6rem;
-    }
-
-    .fontHeading {
-        color: rgb(255, 255, 255);
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 3rem;
-    }
-
-    .fontParagraph {
-        color: rgb(245, 245, 220);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: large;
-    }
-
-    h3 {
-        margin: 1rem 0;
-        color: beige;
-        font-size: 1.9rem;
-    } */
-
-/* The following is the start of my onlie cv's responsive design. This will be the styling that will cater for tablets */
-/* @media (max-width:768) {
-    body {
-        display: grid;
-        grid-template-areas: "nav"
-                             "main";
-        grid-template-rows: 2.5% 97.5%;
-        margin: 0;          
-    } */
-
-    /* Start of syles for NAVBAR */
-    /* JUMPLINKS AND TEXT */
-
-    /* .navbar a {
-        color: rgb(255, 255, 255);
-        margin: 0 0.2rem;
-        padding: 0.2rem;
-        text-decoration: none;
-        text-align: -webkit-center;
-        display: block;
-        border-radius: 5%;
-    }
-
-    .navbar ul {
-        display: inline-flex;
-        margin-right: 0;
-        float: right;
-    } */
-    
-    /* End of styles for SIDENAV */
-    
-    /* Start of styles for HOME */
-    /* TEXT */
-    /* h1 {
-        color: rgb(255, 255, 255);
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        font-size: 2.6rem;
-    }
-    
-    h4 {
-        color: rgb(255, 255, 255);
-        text-align: center;
-        margin-top: 0;
-        font-size: 0.9rem;
-    } */
-    
-    /* BACKGROUND FOR TEXT */
-    /* .bgheading {
-        background-color: rgb(0, 0, 0, 0.7);
-        font-family: 'Montserrat', sans-serif;
-        margin: 8.5rem 10rem 0 10rem;
-    } */
-    
-    /* PARALLAX BACKGROUND IMAGE */
-    /* .parallax {
-        background-image: url(../images/LinkedIn.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        padding: 2rem 0;
-        height: 100vh;
-    }
-     */
-    /* End of styles for HOME */
-    
-/* } */
