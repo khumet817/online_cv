@@ -3,7 +3,7 @@ body {
 }
 
 main {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(155, 151, 151, 0.73);
     margin: 0;
     padding: 1.5em;
 }
@@ -28,9 +28,10 @@ h4 {
 
 /* BACKGROUND FOR TEXT */
 .bgheading {
-    background-color: rgba(124, 0, 0, 0.87);
+    background-color: rgba(124, 0, 0, 0.92);
     border: solid rgb(0, 0, 0) 0.20em;
-    outline: rgb(245, 245, 220) solid 0.015em;
+    /* outline: rgb(245, 245, 220) solid 0.015em; */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.53);
     /* margin: 10em 5em 10em 5em; */
 }
 
@@ -52,13 +53,15 @@ h4 {
 /* Start of styles for MAIN */
 /* TEXT */
 h2 {
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     margin: 0;
+    margin-right: 25px;
     padding-left: 0;
     font-size: 5em;
+    border: solid black 1px;
+    float: left;
 }
-
 img {
     margin: 2em;
     padding: 0 4em;
@@ -152,7 +155,7 @@ ul {
 
 /* Start of styles for CONTACT */
 a {
-    color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.68);
 }
 
 /* PARALLAX BACKGROUND IMAGE */
