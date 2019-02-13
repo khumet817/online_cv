@@ -7,195 +7,181 @@
     <title>Portfolio|Tabile Khume</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
-    <script src="main.js"></script>
-    <!-- Google Fonts links -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oxygen|Poppins|ZCOOL+QingKe+HuangYou" rel="stylesheet">
-    <!-- Font awesome link for icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-        crossorigin="anonymous">
+    <script src="js/main.js"></script>
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Font Library -->
 </head>
 
 <body>
-    <!-- Start of Article -->
-    <article class="content">
-        <!-- Start of home page -->
-        <div id="home" class="parallax">
-            <section class="bgheading">
+    <!-- start of content for body grid -->
+    <div class="grid-1">
+        <!-- Start of content in header -->
+        <header>
+            <!-- ============================================================================== -->
+            <!-- NB: LEARN HOW TO CENTER WITHOUT USING MARGIN. IT WILL HELP WITH RESPONSIVENESS -->
+            <!-- ============================================================================== -->
+
+            <!-- Start of nav bar -->
+            <nav class="topnav" id="myTop">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+            <!-- End of nav bar -->
+        </header>
+        <!-- End of content in header -->
+
+        <section id="home" class="home">
+            <!-- Start of section with title -->
+            <div class="home-heading">
+                <!-- Title -->
                 <h1>Tabile Khume</h1>
+                <!-- Sub-title -->
+                <h2>Junior Web Developer</h2>
+            </div>
+            <!-- End of section with title -->
+        </section>
 
-                <h4>Junior Web Developer</h4>
+        <!-- Start of content in main -->
+        <main class="grid-2">
+            <!-- Start of section with my about -->
+            <section id="about" class="about">
+                <h3>About Me</h3>
+
+                <hr>
+
+                <p>
+                    I'm Tabile Khume. I am patient and a smart worker. I pay attention to detail. I always seek new
+                    challenges that will improve my work. I am aware of my capabilities and my limits. I have good
+                    social skills which will be beneficial at the work place. I can and will adapt to situations if I
+                    need to in order to achieve my set goal I have developed an undying passion for coding. It was never
+                    my first choice but it has now become my first love. It began with my father who is a high school
+                    teacher, continuously nagging me to go through the IT and CAT textbooks that flooded our home.
+                    Perhaps it is my calling.
+                </p>
             </section>
-        </div>
-        <!-- End of home pages -->
+            <!-- End of section with my about -->
 
-        <div id="about">
-            <!-- Start of main -->
-            <main>
-                <!-- Start of About section -->
-                <section>
-                    <!-- Heading greeting -->
-                    <div>
-                        <h2>Hi,</h2>
-                    </div>
+            <!-- Start of section with my academic history -->
+            <article class="education">
+                <h3>Academic History</h3>
 
-                    <div class="fontParagraph">
-                        <!-- Start of paragraphs about me -->
-                        <p>
-                            <img src="images/placeholder-profile-male-500x500.png" alt="User Image">
+                <hr>
 
-                            <p>
-                                I'm Tabile Khume. I am an attentive listener. I am patient and a smart worker. I pay
-                                attention to detail. I always seek new challenges that will improve my work. I am
-                                aware of my capabilities and my limits. I have good social skills which will be
-                                beneficial at the work place. I have developed an undying passion for coding. It was
-                                never my first choice but it has now become my first love. It began with my father,
-                                who is a high school teacher, continuously nagging me to go through the IT and CAT
-                                textbooks that flooded our home. Perhaps it is my calling.
-                            </p>
+                <h4>Secondary Education</h4>
+                <p>
+                    Claremont High School
+                </p>
 
-                            <p>
-                                "You do not have to be great in order to start. You do however need to start in order
-                                to be great."
-                            </p>
-                            <!-- HOBBIES -->
-                            <!-- <p>
-                                Here I am, doing what I enjoy. Besides coding I enjoy doing motivational speaking, play
-                                sports such as soccer, basketball and cricket. I enjoy being indoors just as much I do being
-                                outdoors. I read, spend time with my family and play Xbox or PlayStation games. I find a 
-                                balance between my social life and my professional life. With all these I believe the 
-                                following are important and valuable traits or rather skills that will be beneficial 
-                                towards my profession.
-                            </p> -->
-                            <!-- End of paragraphs about me -->
-                    </div>
-                </section>
-                <!-- End of About section -->
-                <!-- Start of my skills section -->
-                <section>
-                    <h3>My Skills</h3>
-                    <!-- My skills paragraph -->
-                    <div class="fontParagraph">
-                        <p>
-                            The following
-                            are the languages that I have learnt and still learning because you can never really say
-                            you have learnt everything that is there to learn about a language.
-                        </p>
-                        <!-- My skills icons from font awesome -->
-                        <ul>
-                            <li>
-                                <i class="fab fa-html5"></i>
-                            </li>
-                            <li>
-                                <i class="fab fa-css3-alt"></i>
-                            </li>
-                            <li>
-                                <i class="fab fa-sass"></i>
-                            </li>
-                            <li>
-                                <i class="fab fa-java"></i>
-                            </li>
-                            <li>
-                                <i class="fab fa-php"></i>
-                            </li>
-                        </ul>
-                        </p>
-                    </div>
-                </section>
-                <!-- End of my skills section -->
+                <p>
+                    Duration: January 2011 - November 2015
+                </p>
 
-                <!-- Start of Education section -->
-                <section>
-                    <div id="education">
-                        <h3>Education History</h3>
-                    </div>
-                    <!-- Secondary education details with h and p tags  -->
-                    <div class="fontHeading">
-                        <h4>Secondary</h4>
-                    </div>
+                <p>
+                    Subjects: English, IsiXhosa, Mathematics, Life Orientation, Physical Sciences, Life
+                    Sciences
+                    and Accounting.
+                </p>
 
-                    <div class="fontParagraph">
-                        <p>
-                            Claremont High School
-                        </p>
+                <h4>Tertiary Education</h4>
+                <p>
+                    Life Choices Academy
+                </p>
 
-                        <p>
-                            Duration: January 2011 - November 2015
-                        </p>
+                <p>
+                    Duration: November 2018 - April 2019
+                </p>
 
-                        <p>
-                            Subjects: English, IsiXhosa, Mathematics, Life Orientation, Physical Sciences, Life
-                            Sciences
-                            and Accounting.
-                        </p>
-                    </div>
-                    <!-- Tertiary education details with h and p tags -->
-                    <div class="fontHeading">
-                        <h4>Tetiary</h4>
-                    </div>
+                <p>
+                    Course: Full Stack Web Development
+                </p>
+            </article>
+            <!-- End of section with my academic history -->
 
-                    <div class="fontParagraph">
-                        <p>
-                            Life Choices Academy
-                        </p>
+            <!-- Start of aside section with my skills containing my logo and icons for the languages -->
+            <aside class="skills">
+                <h3>Skills</h3>
 
-                        <p>
-                            Duration: November 2018 - April 2019
-                        </p>
+                <hr>
 
-                        <p>
-                            Course: Full Stack Web Development
-                        </p>
-                    </div>
-                </section>
-                <!-- End of Education section -->
-            </main>
-            <!-- End of main -->
-        </div>
-
-        <div class="parallax-project">
-            <!-- Start of Projects section -->
-            <section>
-
-            </section>
-            <!-- End of Projects section -->
-        </div>
-
-        <main>
-            <!-- Start of Contact section -->
-            <div id="contact">
-                <h5>Get In Touch With Me</h5>
+                <!-- My skills icons from font awesome -->
                 <ul>
                     <li>
-                        <a href="">
-                            <i class="fas fa-envelope"></i>
-                        </a>
+                        <i class="fab fa-html5"></i>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/tabile-khume-080809178/">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
+                        <i class="fab fa-css3-alt"></i>
                     </li>
                     <li>
-                        <a href="https://instagram.com/darkinanothercity.27" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+                        <i class="fab fa-sass"></i>
                     </li>
                     <li>
-                        <a href="https://facebook.com/Tabile_Khume" target="_blank">
-                            <i class="fab fa-facebook"></i>
-                        </a>
+                        <i class="fab fa-java"></i>
                     </li>
                     <li>
-                        <a href="https://github.com/khumet817" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
+                        <i class="fab fa-php"></i>
                     </li>
                 </ul>
-            </div>
-            <!-- End of Contact section -->
-        </main>
-    </article>
-    <!-- End of Article -->
-</body>
+            </aside>
+            <!-- End of aside section with my skills containing my logo and icons for the languages -->
 
+            <!-- Start of section with the projects I have done -->
+            <section id="projects" class="projects">
+                MY PROJECTS WILL BE HERE IN THE FORM OF AN TAB GALLARY.
+            </section>
+            <!-- End of section with the projects I have done -->
+        </main>
+        <!-- End of content in header -->
+
+        <!-- Start of section with information on where to contact me -->
+        <aside id="contact" class="contct">
+            <!-- Parallax image section -->
+            <section class="parallax-contact">
+                WHERE TO FIND ME
+            </section>
+
+            <!-- Contact section information -->
+            <section class="contct-info">
+                <div class="contact-container">
+                    <div class="grid-item item-1">1</div>
+                    <div class="grid-item item-2">2</div>
+                    <div class="grid-item item-3">3</div>
+                    <div class="grid-item item-4">4</div>
+                    <div class="grid-item item-5">5</div>
+                </div>
+            </section>
+        </aside>
+        <!-- End of section with information on where to contact me -->
+
+        <!-- Start of content in footer -->
+        <footer class="main-footer">
+            <p>
+                By Tabile Khume.
+            </p>
+        </footer>
+        <!-- End of content in footer -->
+    </div>
+    <!-- end of content for body grid -->
+
+    <script>
+        // =======
+        // NAV BAR
+        // =======
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
 </html>
