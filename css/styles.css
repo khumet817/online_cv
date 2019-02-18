@@ -68,7 +68,7 @@ footer {
 .about {
     grid-area: section-1;
 
-    height: 25vh;
+    height: 40vh;
 }
 
 .education {
@@ -80,7 +80,7 @@ footer {
 .skills {
     grid-area: aside-2;
 
-    height: 88vh;
+    height: 115vh;
 }
 
 /* .projects {
@@ -186,6 +186,13 @@ h2 {
     text-align: center;
 }
 
+li {
+    list-style: none;
+    font-size: 5em;
+    text-align: -webkit-auto;
+    padding-bottom: 10%;
+}
+
 /* -------------------------------------------------------------------------------- */
 /* ====================== */
 /* CONTACT SECTION STYLES */
@@ -205,16 +212,8 @@ h2 {
     padding: 4% 12%;
 }
 
-.contact-container {
-    display: grid;
-    grid-gap: 3px;
-    padding: 10px 25px;
-    background: rgb(75, 75, 75);
-    box-shadow: rgba(0, 0, 0, 0.78) 0 0 4px 4px;
-}
-
-.grid-item {
-    background: white;
+.social {
+    float: right;
 }
 /* -------------------------------------------------------------------------------- */
 /* ===================== */
@@ -351,7 +350,7 @@ h2 {
 
     h1 {
         font-size: 1em;
-        padding: 0 0.5em;
+        padding: 0 0.1em;
         color: black;
     }
 
