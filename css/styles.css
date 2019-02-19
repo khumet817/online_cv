@@ -260,7 +260,7 @@ h5 {
 /* NAV BAR */
 /* ======= */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .topnav a:not(:first-child) {
         display: none;
     }
@@ -271,9 +271,9 @@ h5 {
     }
 }
   
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .topnav.responsive {
-        position: relative;
+        position: fixed;
     }
     
     .topnav.responsive .icon {
@@ -392,6 +392,7 @@ h5 {
     .education {
         height: 100vh;
     }
+
     .skills {
         padding-left: 5%;
         height: 190vh;
@@ -465,6 +466,39 @@ h5 {
     h2 {
         font-size: 0.5em;
         color: black;
+    }
+
+    /* -------------------------------------------------------------------------------- */
+    /* =================== */
+    /* MAIN SECTION STYLES */
+    /* =================== */
+
+    .about {
+        height: 45vh;
+    }
+
+    .education {
+        height: 75vh;
+    }
+    
+    .skills {
+        height: 30vh;
+        padding: 4%;
+    }
+
+    ul {
+        display: inline-flex;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+        font-size: 2em;
+    }
+
+    /* Icons */
+    .fab:before {
+        margin: 0.2em;
     }
 
 }
